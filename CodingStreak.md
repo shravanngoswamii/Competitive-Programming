@@ -4,10 +4,11 @@
 
 ### Linkedin Post
 
-<code>#Day2 of #CodingConsistencyChallenge<br>- Explored more pattern problems in C++
-- Set up a GitHub repository to track progress ~ <a href="https://github.com/shravanngoswamii/Competitive-Programming/tree/main">Visit Repository</a>
-- Crafted a README file for my GitHub profile ~ <a href="https://github.com/shravanngoswamii">Visit Profile</a>
-- Worked on College Project ~ <a href="https://github.com/shravanngoswamii/Shopping-Website">See Project</a></code>
+<code>#Day2 of #CodingConsistencyChallenge</code>
+<code>- Explored more pattern problems in C++</code>
+<code>- Set up a GitHub repository to track progress ~ <a href="https://github.com/shravanngoswamii/Competitive-Programming/tree/main">Visit Repository</a></code>
+<code>- Crafted a README file for my GitHub profile ~ <a href="https://github.com/shravanngoswamii">Visit Profile</a></code>
+<code>- Worked on College Project ~ <a href="https://github.com/shravanngoswamii/Shopping-Website">See Project</a></code>
 
 ## Date (Day 1)
 
