@@ -1,0 +1,24 @@
+# Daily Progress
+
+## Date
+
+### Linkedin Post
+
+'''
+I have wanted to start with DSA for a while, but I was not able to maintain consistency. I have given it multiple tries but you know how it goes. Now, I am giving it another shot, and this time, I'm making my journey public to maintain consistency. It's just an experiment, Let's see if it works!!
+
+#Day1 of #CodingConsistencyChallenge
+- Starting with Patterns of Raj Vikramaditya - Striver Bhaiya's A2Z DSA Playlist!! Already watched first two lectures.
+'''
+
+'''
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string n;
+    getline(cin, n);
+    cout  << "Hello World!!" << endl << n;
+    return 0;
+}
+'''
