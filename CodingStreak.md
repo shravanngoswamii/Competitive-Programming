@@ -5,7 +5,7 @@
 ### Linkedin Post
 
 <code>
-  <a href="https://www.linkedin.com/posts/shravangoswami_day1-codingconsistencychallenge-striversa2zdsa-activity-7097172832903700480-YHnI?utm_source=share&utm_medium=member_desktop" target="_blank">Link to Post</a>
+  <a href="https://www.linkedin.com/posts/shravangoswami_day1-codingconsistencychallenge-striversa2zdsa-activity-7097172832903700480-YHnI?utm_source=share&utm_medium=member_desktop">Link to Post</a>
 </code>
 
 
