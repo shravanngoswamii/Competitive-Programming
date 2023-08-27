@@ -4,9 +4,11 @@
 
 ### Linkedin Post
 
+<pre>
 ```
 [Link to Post](https://www.linkedin.com/posts/shravangoswami_day1-codingconsistencychallenge-striversa2zdsa-activity-7097172832903700480-YHnI?utm_source=share&utm_medium=member_desktop)
 ```
+</pre>
 
 ```
 I have wanted to start with DSA for a while, but I was not able to maintain consistency. I have given it multiple tries but you know how it goes. Now, I am giving it another shot, and this time, I'm making my journey public to maintain consistency. It's just an experiment, Let's see if it works!!
@@ -31,5 +33,5 @@ int main() {
 
 ### Image in Post
 
-![Image in LinkedIn Post](Visual%20Files/Images/example.jpg)
+![Image in LinkedIn Post](Visual%20Files/Images/Screenshot%202023-08-15%20163918.png)
 
