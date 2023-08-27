@@ -1,11 +1,22 @@
 # Daily Progress
 
+## Date (Day 2)
+
+### Linkedin Post
+
+<code>
+#Day2 of #CodingConsistencyChallenge
+- Explored more pattern problems in C++
+- Set up a GitHub repository to track progress ~ <a href="https://lnkd.in/dWVnEWvM">https://lnkd.in/dWVnEWvM</a>
+- Crafted a README file for my GitHub profile ~ <a href="https://lnkd.in/dzCJsp6k">https://lnkd.in/dzCJsp6k</a>
+- Worked on College Project ~ <a href="https://lnkd.in/dcF84jjD">https://lnkd.in/dcF84jjD</a>
+</code>
+
 ## Date (Day 1)
 
 ### Linkedin Post
 
-<div style="text-align: center;"><code><a href="https://www.linkedin.com/posts/shravangoswami_day1-codingconsistencychallenge-striversa2zdsa-activity-7097172832903700480-YHnI?utm_source=share&utm_medium=member_desktop" target="_blank">Link to Post</a></code></div>
-
+<code><a href="https://www.linkedin.com/posts/shravangoswami_day1-codingconsistencychallenge-striversa2zdsa-activity-7097172832903700480-YHnI?utm_source=share&utm_medium=member_desktop">Link to Post</a></code>
 
 
 ```
