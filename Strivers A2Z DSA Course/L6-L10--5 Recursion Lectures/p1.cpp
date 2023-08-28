@@ -5,7 +5,7 @@ int cnt=0;
 void name(int n){
 	if (cnt==n) return;
 	cnt++;
-	cout << "Name";
+	cout << "Name" << endl;
 	name(n);
 }
 
