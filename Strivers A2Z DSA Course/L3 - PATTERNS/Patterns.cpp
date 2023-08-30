@@ -391,6 +391,6 @@ int main(){
 	{
 		int n;
 		cin >> n;
-		pattern20(n);
+		pattern19(n);
 	}
 }

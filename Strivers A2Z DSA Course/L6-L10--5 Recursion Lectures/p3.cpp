@@ -1,22 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int cnt=0;
+int cnt;
 void name(int n){
-	if (cnt==n) return;
-	cnt++;
-	cout << "shravan" << endl;
+	if (cnt<1) return;
+	cout << cnt << " ";
+	cnt--;
 	name(n);
 }
 
 int main(){
 	int t;
 	cin >> t;
-	for (int i=1; i<t; i++){
+	for (int i=1; i<=t; i++){
 		int n;
 		cin >> n;
+		cnt = n;
 		name(n);
-		cnt = 0;
+		// cnt = n;
 		cout <<  endl;
 	}
 }
