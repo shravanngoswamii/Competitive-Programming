@@ -2,11 +2,11 @@
 using namespace std;
 
 int cnt;
-void name(int n){
+void num(int n){
 	if (cnt<1) return;
 	cout << cnt << "\n";
 	cnt--;
-	name(n);
+	num(n);
 }
 
 int main(){
@@ -16,7 +16,7 @@ int main(){
 		int n;
 		cin >> n;
 		cnt = n;
-		name(n);
+		num(n);
 		// cnt = n;
 		// cout <<  endl;
 	}
