@@ -5,19 +5,35 @@ using namespace std;
 
 //Parameterised Recursionn
 
-
-//Functional Recursion
-int sum(int n){
-	if (n==0){
-		return 0;
+void func(int i, int sum){
+	if(i<1){
+		cout << sum << endl;
+		return;
 	}
-	else{
-		return n+sum(n-1);
-	}
+	func(i-1, sum+i);
 }
 
 int main(){
 	int n;
 	cin >> n;
-	cout << sum(n);
+	func(n,0);
+	return 0;
 }
+
+
+// //Functional Recursion
+
+// int sum(int n){
+// 	if (n==0){
+// 		return 0;
+// 	}
+// 	else{
+// 		return n+sum(n-1);
+// 	}
+// }
+
+// int main(){
+// 	int n;
+// 	cin >> n;
+// 	cout << sum(n);
+// }
