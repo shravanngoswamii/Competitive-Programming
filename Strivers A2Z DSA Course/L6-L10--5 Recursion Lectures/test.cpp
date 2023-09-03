@@ -25,29 +25,30 @@
 // }
 
 
-#include <bits/stdc++.h>
-using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
-int i = 1;
-void printNos(int N) {
+// int i = 1;
+// void printNos(int N) {
 
-        if (i>N) return;
-        i++;
-        printNos(N);
-        cout << i-1 << " ";
-    }
+//         if (i>N) return;
+//         i++;
+//         printNos(N);
+//         cout << i-1 << " ";
+//     }
 
-int main(){
-    int T;
-    cin >> T;
+// int main(){
+//     int T;
+//     cin >> T;
 
-    while(T--) {
-        int N;
+//     while(T--) {
+//         int N;
 
-        cin >> N;
+//         cin >> N;
 
-        printNos(N);
-        cout << "\n";
-    }
-    return 0;
-}
+//         printNos(N);
+//         cout << "\n";
+//     }
+//     return 0;
+// }
+
