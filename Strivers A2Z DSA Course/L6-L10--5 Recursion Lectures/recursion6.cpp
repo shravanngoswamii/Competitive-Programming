@@ -1,4 +1,4 @@
-//Sum of 1st N number
+// Sum of 1st N number
 
 #include <bits/stdc++.h>
 using namespace std;

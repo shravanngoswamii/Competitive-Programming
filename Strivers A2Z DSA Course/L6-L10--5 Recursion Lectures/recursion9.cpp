@@ -10,7 +10,13 @@ bool f(int i, string &s){
 int main(){
 	string s;
 	cin >> s;
-	cout << f(0,s);
+	// cout << f(0,s);
+	if (f(0, s)) {
+        cout << "Yes";
+    } else {
+        cout << "No";
+    }
+    cout << endl << s.size();
 	return 0;
 
 }
