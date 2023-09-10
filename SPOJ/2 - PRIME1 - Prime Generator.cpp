@@ -19,7 +19,7 @@ int main(){
 				cout << j << endl;
 			}				
 		}
-		cout << endl;
+		cout << endl;typedef int MyCustomType;
 	}
 }
 
