@@ -31,3 +31,19 @@ int main() {
     }
     return 0;
 }
+
+
+/*
+Input:
+3
+(a+(b*c))
+((a+b)*(z+x))
+((a+t)*((b+(a+c))^(c+d)))
+
+Output:
+abc*+
+ab+zx+*
+at+bac++cd+^*
+
+https://www.spoj.com/problems/ONP/
+*/
