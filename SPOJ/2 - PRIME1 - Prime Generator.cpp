@@ -22,3 +22,23 @@ int main(){
 		cout << endl;
 	}
 }
+
+
+/*
+Input:
+2
+1 10
+3 5
+
+Output:
+2
+3
+5
+7
+
+3
+5
+
+
+link - https://www.spoj.com/problems/PRIME1/
+*/
