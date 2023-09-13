@@ -17,5 +17,6 @@ class Main {
         B b = new B();
         b.callme();
         b.callmetoo();
+        int n = 5;
     }
 }
