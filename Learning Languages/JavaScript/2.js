@@ -1,8 +1,18 @@
-const item = {
-    "Harry": true,
-    "Shubhh": false,
-    "Raj": undefined
-}
+// Operators
+let a = 10;
+let b = 20;
+console.log("++a = ", ++a)
+console.log("a++ = ", a++)
+console.log("--a = ", --a)
+console.log("a-- = ", a--)
+console.log("a = ", a)
+console.log("a-- = ", a--)
 
-console.log(item["Raj"]);
-console.log(typeof item.Harry)
+// Output:
+// 11
+// 11
+// 11
+// 11
+// 10
+// 10
+
