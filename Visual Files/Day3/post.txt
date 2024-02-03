@@ -1,4 +1,0 @@
-#Day3 of #CodingConsistencyChallenge
-- Completed all Patterns
-- Updated Github Repo
-- Started C++ STL, will complete it by tomorrow

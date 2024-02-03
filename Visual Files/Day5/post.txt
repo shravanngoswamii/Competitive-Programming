@@ -1,4 +1,0 @@
-#Day2 of #CodingConsistencyChallenge
-- Studied Basic Maths for DSA(still remaining half lecture)
-- Did Pattern of GeeksforGeeks(GFG)
-- Did Setup of CodeChaos Club's discord and youtube of my college that i started last sem.

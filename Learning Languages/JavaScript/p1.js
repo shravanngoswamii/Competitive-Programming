@@ -20,7 +20,7 @@ obj["friend"] = "shubhh"
 console.log(obj)
 // Answer - Yes
 
-// q5 - write a program to creat a word meaning dictionary of 5 words.
+// q5 - write a program to create a word meaning dictionary of 5 words.
 
 const dictionary = {
     hello: "greeting",

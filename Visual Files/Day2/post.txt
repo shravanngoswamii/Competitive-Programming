@@ -1,5 +1,0 @@
-#Day2 of #CodingConsistencyChallenge
-- Explored more pattern problems in C++
-- Set up a GitHub repository to track progress ~ https://lnkd.in/dWVnEWvM
-- Crafted a README file for my GitHub profile ~ https://lnkd.in/dzCJsp6k
-- Worked on College Project ~ https://lnkd.in/dcF84jjD

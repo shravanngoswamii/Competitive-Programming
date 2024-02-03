@@ -1,4 +1,0 @@
-#Day4 of #CodingConsistencyChallenge
-- Completed C++ STL
-- Started Basic Maths for DSA
-- Updated Github Repo....
