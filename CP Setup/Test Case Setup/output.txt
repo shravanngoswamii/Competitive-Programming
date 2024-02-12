@@ -1,5 +1,3 @@
-YES
-YES
-NO
-YES
-NO
+Wrong
+Wrong
+Correct
