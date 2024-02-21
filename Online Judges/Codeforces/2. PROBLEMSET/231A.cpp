@@ -3,21 +3,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-	int n;
-	cin >> n;
-	while(n--){
-		for(int i=1; i<=3; i++){
-			int x;
-			bool a;
-			int count=0;
-			cin >> x;
-			if(x==1){
-				count += x
-			}
-			if(count>1){
-				a=true;
-			}
-		}
-	}
+int main() {
+    int n;
+    cin >> n;
+    
+    int tp = 0;
+    
+    for (int i = 0; i < n; i++) {
+        int count = 0;
+        for (int j = 0; j < 3; j++) {
+            int x;
+            cin >> x;
+            if (x == 1) {
+                count++;
+            }
+        }
+        if (count >= 2) {
+            tp++;
+        }
+    }
+    
+    cout << tp << endl;
+
 }
