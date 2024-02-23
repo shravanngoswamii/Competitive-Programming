@@ -4,25 +4,29 @@
 using namespace std;
 
 bool isPalindrome(const string& str) {
-    return equal(str.begin(), str.begin() + str.size()/2, str.rbegin());
+    int left = 0;
+    int right = str.length() - 1;
+    while (left < right) {
+        if (str[left] != str[right])
+            return false;
+        left++;
+        right--;
+    }
+    return true;
 }
 
 int main() {
     int N;
     cin >> N;
 
-    string reversed;
-    while (N % 10 == 0)
-        N /= 10;
-    while (N > 0) {
-        reversed += (N % 10) + '0';
-        N /= 10;
-    }
+    string reversed = to_string(N);
+    while (!reversed.empty() && reversed.back() == '0')
+        reversed.pop_back();
+    reverse(reversed.begin(), reversed.end());
+
     cout << reversed << endl;
 
-    string original = reversed;
-    reverse(original.begin(), original.end());
-    if (isPalindrome(original))
+    if (isPalindrome(to_string(N)))
         cout << "YES" << endl;
     else
         cout << "NO" << endl;
