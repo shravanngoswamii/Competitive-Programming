@@ -3,24 +3,29 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-	string n;
-	cin >> n;
-	int len = n.length();
-	bool c;
-	for(int i=0; i<len/2; i++){
-		if(n[i]!=n[len-i-1]){
-			c=false;	
-		}
-		else{
-			c=true;
-		}
-	}
-	if(c==true){
-		cout << "YES";
-	}
-	else{
-		cout << "NO";
-	}
-	
+bool isPalindrome(const string& str) {
+    return equal(str.begin(), str.begin() + str.size()/2, str.rbegin());
+}
+
+int main() {
+    int N;
+    cin >> N;
+
+    string reversed;
+    while (N % 10 == 0)
+        N /= 10;
+    while (N > 0) {
+        reversed += (N % 10) + '0';
+        N /= 10;
+    }
+    cout << reversed << endl;
+
+    string original = reversed;
+    reverse(original.begin(), original.end());
+    if (isPalindrome(original))
+        cout << "YES" << endl;
+    else
+        cout << "NO" << endl;
+
+    return 0;
 }
