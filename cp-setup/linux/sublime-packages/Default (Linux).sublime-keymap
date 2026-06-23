@@ -1,0 +1,26 @@
+[
+	{
+		"keys": ["ctrl+`"],
+		"command": "terminus_toggle",
+		"args": {
+			"panel_name": "Terminus"
+		}
+	},
+	{
+		"keys": ["ctrl+shift+`"],
+		"command": "terminus_open",
+		"args": {
+			"cwd": "${file_path:${folder}}",
+			"title": "Terminal"
+		}
+	},
+	{
+		"keys": ["ctrl+b"],
+		"command": "cp_build",
+		"context": [{"key": "selector", "operator": "equal", "operand": "source.c++"}]
+	},
+	{
+		"keys": ["ctrl+shift+i"],
+		"command": "cp_layout"
+	}
+]

@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+typedef pair<int,int> pii;
+typedef vector<int> vi;
+
+void solve() {
+    $0
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int t;
+    cin >> t;
+    while (t--) solve();
+
+    return 0;
+}
+]]></content>
+    <tabTrigger>cp</tabTrigger>
+    <scope>source.c++</scope>
+    <description>CP Template</description>
+</snippet>
