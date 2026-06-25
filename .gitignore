@@ -1,0 +1,5 @@
+# C++ compiled output
+*.exe
+*.o
+*.out
+*.class
