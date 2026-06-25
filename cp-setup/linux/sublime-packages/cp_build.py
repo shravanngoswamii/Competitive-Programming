@@ -62,7 +62,7 @@ class CpBuildCommand(sublime_plugin.WindowCommand):
 class CpTerminusToggleCommand(sublime_plugin.WindowCommand):
     def run(self):
         w = self.window
-        if w.active_panel() == "panel_Terminus":
+        if w.active_panel() == "output.Terminus":
             w.run_command("hide_panel")
         elif "output.Terminus" in (w.panels() or []):
             w.run_command("show_panel", {"panel": "output.Terminus"})
