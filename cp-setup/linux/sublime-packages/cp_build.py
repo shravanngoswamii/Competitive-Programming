@@ -4,7 +4,7 @@ import subprocess
 import os
 import threading
 
-CP_DIR = "CP_DIR_PLACEHOLDER"
+CP_DIR = "/home/seeker/Work/CP"
 
 def run_build(view):
     file = view.file_name()
@@ -57,3 +57,17 @@ class CpBuildCommand(sublime_plugin.WindowCommand):
             return
         view.run_command('save')
         threading.Thread(target=run_build, args=(view,), daemon=True).start()
+
+
+class CpTerminusToggleCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        w = self.window
+        if w.active_panel() == "panel_Terminus":
+            w.run_command("hide_panel")
+        elif "output.Terminus" in (w.panels() or []):
+            w.run_command("show_panel", {"panel": "output.Terminus"})
+        else:
+            w.run_command("terminus_open", {
+                "panel_name": "Terminus",
+                "cwd": "${file_path:${folder}}"
+            })

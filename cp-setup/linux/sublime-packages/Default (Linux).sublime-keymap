@@ -1,17 +1,15 @@
 [
 	{
 		"keys": ["ctrl+`"],
-		"command": "terminus_toggle",
-		"args": {
-			"panel_name": "Terminus"
-		}
+		"command": "cp_terminus_toggle"
 	},
 	{
 		"keys": ["ctrl+shift+`"],
 		"command": "terminus_open",
 		"args": {
 			"cwd": "${file_path:${folder}}",
-			"title": "Terminal"
+			"title": "Terminal",
+			"panel_name": "Terminus"
 		}
 	},
 	{
