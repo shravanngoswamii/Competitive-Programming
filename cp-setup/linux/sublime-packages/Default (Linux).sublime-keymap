@@ -8,8 +8,7 @@
 		"command": "terminus_open",
 		"args": {
 			"cwd": "${file_path:${folder}}",
-			"title": "Terminal",
-			"panel_name": "Terminus"
+			"title": "Terminal"
 		}
 	},
 	{
